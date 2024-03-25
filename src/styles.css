@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+}
+
+#input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#weather-container div {
+    font-size: 35px;
+}
+
+#lower-group {
+    display: flex;
+    justify-content: center;
+}
+
+#forecast-container {
+    margin-right: 60px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.weathercon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.tempcon {
+    margin: 0px 15px;
+}
+
+.weathericon {
+    height: 50px;
+    width: 50px;
+}
+
+.infocon {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 15px;
+    font-size: 22px;
+}
